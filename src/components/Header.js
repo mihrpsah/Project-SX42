@@ -5,7 +5,7 @@ import './Header.css';
 import Amazon from "../images/logo.png";
 import BookStore from "../images/bookstore.png";
 import USA from "../images/usa.png";
-import React from 'react';
+//import React from 'react';
 import {ShoppingCartOutlined, MenuOutlined} from "@ant-design/icons";
 import { Link } from 'react-router-dom';
 
@@ -30,7 +30,7 @@ const Header = () => {
     <div className="site-page-header-ghost-wrapper">
       <PageHeader
         ghost={false}
-        title="Amazon Clone"
+        
         extra={[
 
           <>
@@ -38,11 +38,12 @@ const Header = () => {
           <img src={BookStore} className="logo"></img>
 
           <Search
-      placeholder="input search text"
+      placeholder="Search For Products"
       enterButton="Search"
       size="large"
       suffix={suffix}
       onSearch={onSearch}
+      className="searchBar"
     />
           
          <Button key="1" type="primary" class="login" onClick={() => authenticate()}>
