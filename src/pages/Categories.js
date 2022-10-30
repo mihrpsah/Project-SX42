@@ -2,6 +2,11 @@ import React from 'react';
 import { Button } from 'antd';
 import { useLocation } from 'react-router-dom';
 
+
+
+
+
+
 const Categories = () => {
 const {state: category} = useLocation();
 return(
