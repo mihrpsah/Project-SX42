@@ -8,3 +8,7 @@ Languages and tools used:-
 2. Typescript.
 3. Yarn as package manager.
 4. Moralis for backend login-authentication through Metamask.
+
+Task to be completed next:- Creation of products page.
+
+Reference tutorial:- https://moralis.io/web3-e-commerce-create-a-web3-e-commerce-platform-in-5-steps/
